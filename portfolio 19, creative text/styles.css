@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./img/image3A50595_mirror154.jpg');
+    background-size: 100% 100%;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h2
+{
+    position: absolute;
+    font-size: 12em;
+    color: #020023;
+    line-height: 1em;
+    text-shadow: -1px 1px 0 #00e1ff,
+    -2px 2px 0 #00e1ff,
+    -3px 3px 0 #00e1ff,
+    -4px 4px 0 #00e1ff,
+    -5px 5px 0 #00e1ff,
+    -6px 6px 0 #00e1ff,
+    -7px 7px 0 #00e1ff,
+    -8px 4px 0 #00e1ff,
+    -9px 9px 0 #00e1ff,
+    -10px 10px 0 #00e1ff,
+    -11px 11px 0 #00e1ff,
+    -12px 12px 0 #00e1ff,
+    -13px 13px 0 #00e1ff,
+    -14px 14px 0 #00e1ff,
+    -15px 15px 0 #00e1ff,
+    -16px 16px 0 #00e1ff,
+    -18px 18px 20px #74f1ff,
+    -18px 18px 30px #74f1ff,
+    -18px 18px 50px #74f1ff,
+    -18px 18px 150px #74f1ff;
+}
+.container h2:nth-child(2)
+{
+    color: #ff0044;
+    text-shadow: -1px 1px 0 #ff0044,
+    -2px 2px 0 #ff0044,
+    -3px 3px 0 #ff0044,
+    -4px 4px 0 #ff0044,
+    -5px 5px 0 #ff0044,
+    -6px 6px 0 #ff0044,
+    -7px 7px 0 #ff0044,
+    -8px 4px 0 #ff0044,
+    -9px 9px 0 #ff0044,
+    -10px 10px 0 #ff0044,
+    -11px 11px 0 #ff0044,
+    -12px 12px 0 #ff0044,
+    -13px 13px 0 #ff0044,
+    -14px 14px 0 #ff0044,
+    -15px 15px 0 #ff0044,
+    -16px 16px 0 #ff0044,
+    -18px 18px 20px #74f1ff,
+    -18px 18px 30px #74f1ff,
+    -18px 18px 50px #74f1ff,
+    -18px 18px 150px #74f1ff;
+    clip-path: circle(10% at 50% 100%);
+    transition: clip-path 2.5s;
+}
+.container h2:hover:nth-child(2)
+{
+    clip-path: circle(50% at 50% 100%);
+    z-index: 100;
+}
+.container h2:nth-child(3)
+{
+    color: #e1ff00;
+    text-shadow: -1px 1px 0 #e1ff00,
+    -2px 2px 0 #e1ff00,
+    -3px 3px 0 #e1ff00,
+    -4px 4px 0 #e1ff00,
+    -5px 5px 0 #e1ff00,
+    -6px 6px 0 #e1ff00,
+    -7px 7px 0 #e1ff00,
+    -8px 4px 0 #e1ff00,
+    -9px 9px 0 #e1ff00,
+    -10px 10px 0 #e1ff00,
+    -11px 11px 0 #e1ff00,
+    -12px 12px 0 #e1ff00,
+    -13px 13px 0 #e1ff00,
+    -14px 14px 0 #e1ff00,
+    -15px 15px 0 #e1ff00,
+    -16px 16px 0 #e1ff00,
+    -18px 18px 20px #74f1ff,
+    -18px 18px 30px #74f1ff,
+    -18px 18px 50px #74f1ff,
+    -18px 18px 150px #74f1ff;
+    clip-path: circle(20% at 0% 0%);
+    transition: clip-path 2.5s;
+}
+.container h2:hover:nth-child(3)
+{
+    clip-path: circle(120% at 0% 0%);
+    z-index: 100;
+}
+.container h2:nth-child(4)
+{
+    color: #00ff15;
+    text-shadow: -1px 1px 0 #00ff26,
+    -2px 2px 0 #00ff26,
+    -3px 3px 0 #00ff26,
+    -4px 4px 0 #00ff26,
+    -5px 5px 0 #00ff26,
+    -6px 6px 0 #00ff26,
+    -7px 7px 0 #00ff26,
+    -8px 4px 0 #00ff26,
+    -9px 9px 0 #00ff26,
+    -10px 10px 0 #00ff26,
+    -11px 11px 0 #00ff26,
+    -12px 12px 0 #00ff26,
+    -13px 13px 0 #00ff26,
+    -14px 14px 0 #00ff26,
+    -15px 15px 0 #00ff26,
+    -16px 16px 0 #00ff26,
+    -18px 18px 20px #74f1ff,
+    -18px 18px 30px #74f1ff,
+    -18px 18px 50px #74f1ff,
+    -18px 18px 150px #74f1ff;
+    clip-path: circle(15% at 100% 50%);
+    transition: clip-path 2.5s;
+}
+.container h2:hover:nth-child(4)
+{
+    clip-path: circle(120% at 100% 50%);
+    z-index: 100;
+}
+
